@@ -1,0 +1,2 @@
+option('build-binary', type: 'boolean', value: true, description: 'Build the CLI tool.')
+option('check-sse2', type: 'boolean', value: true, description: 'Check and enable SSE2 extensions if supported. Disabling SSE on platforms which support it may decrease performances.')
